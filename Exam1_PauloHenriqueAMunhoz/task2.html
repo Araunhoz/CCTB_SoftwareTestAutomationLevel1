@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="u2_style_task2.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item active">Home</li>
+            <li class="menu-item">About</li>
+            <li class="menu-item">Services</li>
+            <li class="menu-item">Contact</li>
+        </ul>
+    </nav>
+    <button class="submit-button" onclick="showMessage()">Submit</button>
+    <div id="message" class="message"></div>
+
+    <script>
+        function showMessage() {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerText = "Button clicked!";
+            setTimeout(() => {
+                messageDiv.innerText = "";
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

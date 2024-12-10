@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Overall body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #06073b;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content styling */
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.social-icons {
+    margin: 10px 0;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
