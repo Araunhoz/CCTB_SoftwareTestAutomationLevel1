@@ -1,0 +1,27 @@
+----- Test Scenario Analysis------
+
+Scenario 1 - Logging into the website using valid credentials:
+
+Steps:
+1) Navigate to the DemoBlaze website.
+2) Locate the login form.
+3) Enter valid username and password.
+4) Click on the login button.
+5) Verify successful login by checking for presence of user profile information.
+6) Adding a specific product (e.g., a laptop) to the cart:
+
+Scenario 2 - Navigate to the DemoBlaze home page.
+
+1) Select a product category (e.g., Laptops).
+2) Choose a specific product (e.g., MacBook Pro).
+3) Add the product to the cart.
+4) Verify that the product appears in the cart.
+5) Contacting customer support through the contact form:
+
+
+Scenario 3 -Navigate to the DemoBlaze home page.
+
+1) Click on the "Contact" link.
+2) Fill out the contact form with a name, email, and message.
+3) Submit the form.
+4) Handle any alert or confirmation popups if present.
